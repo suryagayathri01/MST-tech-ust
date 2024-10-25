@@ -78,6 +78,7 @@ header nav ul li a:hover {
 
 .home-content {
     max-width: 50%;
+    text-align: left;
 }
 
 .home-content h1 {
@@ -106,7 +107,7 @@ header nav ul li a:hover {
 }
 
 .home-image {
-    max-width: 45%;
+    max-width: 50%;
 }
 
 #about {
@@ -162,7 +163,7 @@ header nav ul li a:hover {
 .service-container {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .service-box {
@@ -170,14 +171,14 @@ header nav ul li a:hover {
     color: #303655;
     padding: 2rem;
     border-radius: 8px;
-    width: 250px;
+    width: 260px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     cursor: pointer;
 }
 
 .service-box h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
 }
 
@@ -188,8 +189,8 @@ header nav ul li a:hover {
 
 .service-box img {
     margin-bottom: 1rem;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
 }
